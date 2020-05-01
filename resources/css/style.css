@@ -9,3 +9,9 @@ body {
     width: 400px;
     margin: 25px auto;
 }
+
+.container img {
+    width: 300px;
+    margin: 0 auto;
+    display: block; /* img ist standmäßig inline, im Textfluss*/
+}
