@@ -8,10 +8,18 @@ body {
     padding: 10px;
     width: 400px;
     margin: 25px auto;
+    border-radius: 5;
+    box-shadow: 0px 0px 5px white;
+}
+
+.container h1 {
+    text-shadow: 0px 0px 2px grey;
 }
 
 .container img {
     width: 300px;
     margin: 0 auto;
     display: block; /* img ist standmäßig inline, im Textfluss*/
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px grey; /* verwischen, aber kein Versatz */
 }
